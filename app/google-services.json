@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "351471832483",
+    "firebase_url": "https://saguna-store.firebaseio.com",
+    "project_id": "saguna-store",
+    "storage_bucket": "saguna-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351471832483:android:ab2b3fabdf9b227d299e16",
+        "android_client_info": {
+          "package_name": "com.example.sagunastore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351471832483-1haqd25t8nfe6q3281obcatb8u36nt60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcvsi6pwFgQF3t7TfrVL9pYVj8Jj3jg3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351471832483-1haqd25t8nfe6q3281obcatb8u36nt60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

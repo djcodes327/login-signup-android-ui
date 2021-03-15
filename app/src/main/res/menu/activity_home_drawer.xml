@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    //xmlns:tools="http://schemas.android.com/tools"
+    //tools:showIn="navigation_view"
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@drawable/my_orders"
+            android:title="@string/my_orders" />
+        <item
+            android:id="@+id/nav_rewards"
+            android:icon="@drawable/rewards"
+            android:title="@string/my_rewards" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart_black"
+            android:title="@string/cart" />
+        <item
+            android:id="@+id/nav_wishlist"
+            android:icon="@drawable/wishlist"
+            android:title="@string/my_wishlist" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/profile"
+            android:title="@string/menu_slideshow" />
+
+    </group>
+
+
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/website"
+                android:title="@string/website" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/my_orders"
+                android:title="@string/my_orders" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="@string/logout" />
+
+        </menu>
+    </item>
+
+</menu>

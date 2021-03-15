@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.SignUpFrag">
+    <ScrollView
+        android:id="@+id/scrollViewLogin"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:id="@+id/loginRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:id="@+id/linearLayoutLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                >
+                <!--logo-->
+                <ImageView
+                    android:id="@+id/signup_logoname"
+                    android:layout_width="350dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/main_logo"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    ></ImageView>
+                <!--ProgressBar-->
+
+                <ProgressBar
+                    android:id="@+id/progressbar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    ></ProgressBar>
+                <!--E-Mail-->
+                <EditText
+                    android:id="@+id/register_email"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:hint="@string/email"
+                    android:textColorHint="@color/grey"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <!--Full Name-->
+                <EditText
+                    android:id="@+id/register_fullname"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:hint="@string/full_name"
+                    android:textColorHint="@color/grey"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    />
+                <!--E-Mail-->
+
+                <!--Phone Number-->
+                <EditText
+                    android:id="@+id/register_phoneNumber"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:inputType="phone"
+                    android:hint="@string/phone_number"
+                    android:textColorHint="@color/grey"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <!--Password-->
+                <EditText
+                    android:id="@+id/register_password"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:inputType="textPassword"
+                    android:hint="@string/password"
+                    android:textColorHint="@color/grey"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+                <Button
+                    android:id="@+id/register_button"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="@string/register"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_rect_button"
+                    ></Button>
+
+
+                <TextView
+                    android:id="@+id/have_account_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/have_account"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    ></TextView>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+</FrameLayout>
